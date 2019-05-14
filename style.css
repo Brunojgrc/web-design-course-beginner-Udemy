@@ -21,6 +21,7 @@ header{
 	height: 80px;
 	padding-top:20px ;
 	font-family: Helvetica, arial;
+
 }
 
 footer{
@@ -39,6 +40,7 @@ h1{
 }
 
 /* IDs */
+
 /*#div_esquerda{
 	background-color: red;
 	min-height:200px;
@@ -54,11 +56,38 @@ h1{
 }*/
 #div_principal{
 	background-image: url('toronto_city.jpg');
-	background-size: 100%;
+	clear: both;
+	background-size: auto;
 	min-height: 400px;
 	padding: 100px;
+	/*background-repeat: no-repeat;*/
+}
+#logo{
+	float:left;
+}
+
+#menu{
+	float: right;
+	margin-top:25px;
+	margin-right:25px;
+
+}
+#menu a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+}
+#menu a:hover{
+	background-color:#E6E6FA;
+	color: #000000;
+}
+#logo{
+	margin-left:25px;
+}
+
 }
 /* Class */
+
 .container{
 	width: 80%;
 	margin: auto;

@@ -1,0 +1,70 @@
+/* Tags */
+p {
+	color: #ffffff;
+	font-size: 20x;
+	font-family: Helvetica, arial;
+	text-align: justify;
+	width: 300px;
+}
+
+body {
+	background-color: #000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: white;
+	height: 80px;
+	padding-top:20px ;
+	font-family: Helvetica, arial;
+}
+
+footer{
+	background-color: white;
+	height: 30px;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+h1{
+	color: #ffffff;
+	text-align: left;
+	margin-bottom: 50px;
+
+	/*text-shadow: 1px 1px 1px #111111;*/
+}
+
+/* IDs */
+/*#div_esquerda{
+	background-color: red;
+	min-height:200px;
+	width: 60%;
+	float: left;
+}
+
+#div_direita{
+	background-color: yellow;
+	min-height: 200px;
+	width: 40%;
+	float: right;
+}*/
+#div_principal{
+	background-image: url('toronto_city.jpg');
+	background-size: 100%;
+	min-height: 400px;
+	padding: 100px;
+}
+/* Class */
+.container{
+	width: 80%;
+	margin: auto;
+}
+.efeito{
+	background-color: rgba(0,0,0,0.45);
+	width: 375px;
+	padding: 20px;
+}

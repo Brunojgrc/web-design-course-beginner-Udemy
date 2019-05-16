@@ -5,6 +5,8 @@ p {
 	font-family: Helvetica, arial;
 	text-align: justify;
 	width: 300px;
+	padding-left: 35px;
+	padding-bottom: 20px;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 header{
 	background-color: white;
 	height: 80px;
-	padding-top:20px ;
+	padding-top:20px;
 	font-family: Helvetica, arial;
 
 }

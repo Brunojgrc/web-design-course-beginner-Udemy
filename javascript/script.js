@@ -1,4 +1,5 @@
-/*alert(mensagem);
+var mensagem = "Olá Mundo!";
+alert(mensagem);
 
 var a = 2;
 var b = 3;
@@ -34,8 +35,9 @@ while (i<3){
 var j; 
 for (j=0;j<3;j++){
 	alert(j);
-}*/
+}
 
+// Array
 var lista = ["a", "b", "c"];
 alert (lista[0]);
 

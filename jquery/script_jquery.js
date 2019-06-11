@@ -34,9 +34,9 @@ $(function(){
 		$('p').css('color','vermelho');
 			$('#msg')
 			.text('Cor alterada com sucesso!')
-			 .delay(3000)
-			  .fadeOut('fast')
-			  	.addClass('green');
+			.delay(3000)
+			.fadeOut('fast')
+			.addClass('green');
 	});	
 });
 

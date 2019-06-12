@@ -19,7 +19,7 @@
 });
 */
 
-$(function(){
+/*$(function(){
 	$('#azul').click(function(){
 		$('p').css('color','blue');
 	});
@@ -27,9 +27,9 @@ $(function(){
 		/*$('p').css('color','vermelho');
 		$('#msg').text('Cor alterada com sucesso!');
 		$('#msg').delay(3000);
-		$('#msg').fadeOut('fast');*/
+		$('#msg').fadeOut('fast');
 
-		// Encadeamento de bloco...
+		//Encadeamento de bloco...
 
 		$('p').css('color','vermelho');
 			$('#msg')
@@ -40,3 +40,31 @@ $(function(){
 	});	
 });
 
+*/
+
+$(function(){
+	$('#link1').click(function(){
+		$('#surf01').show();
+		$('#surf02').hide();
+		$('#surf03').hide();
+		$('#surf04').hide();
+	});
+	$('#link2').click(function(){
+		$('#surf02').show();
+		$('#surf01').hide();
+		$('#surf03').hide();
+		$('#surf04').hide();
+	});
+	$('#link3').click(function(){
+		$('#surf03').show();
+		$('#surf02').hide();
+		$('#surf01').hide();
+		$('#surf04').hide();
+	});
+	$('#link4').click(function(){
+		$('#surf04').show();
+		$('#surf02').hide();
+		$('#surf03').hide();
+		$('#surf01').hide();
+	});
+});
